@@ -22,6 +22,7 @@ section{
     background-size: cover;
     background-repeat: no-repeat;
     width:325px;
+    border-radius: 0px 0px 0px 20px;
 }
 .text-box{
     width:325px;
@@ -29,6 +30,7 @@ section{
     display:flex;
     flex-direction: column;
     padding: 30px;
+    border-radius: 0px 0px 20px 0px;
 }
 .header{
     color:hsl(228, 12%, 48%);
