@@ -7,15 +7,15 @@
 
 section{
     background-color: hsl(30, 38%, 92%);
-    height:100vh;
+    height: 100vh;
 }
 .card-container{
     display:flex;
     margin: 0 auto;
     width:650px;
-    border-radius: 15px;
+    border-radius: 20px;
     box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
-    height: 65%;
+    height: 60%;
 }
 .image-box{
     background: url('/Asset/image-product-desktop.jpg');
@@ -73,6 +73,11 @@ section{
     height: 45px;
     border-radius: 8px;
 }
+.btn:hover{
+    transform:translateY(-1px);
+    transition: all 2s ease;
+    background-color: hsl(159, 29%, 49%);
+}
 .btn-props{
     display: flex;
     justify-content: center;
@@ -82,7 +87,7 @@ section{
 .attribution { 
     font-size: 11px; 
     text-align: center; 
-    margin-top: 100px;
+    margin-top: 200px;
 }
 .attribution a { 
         color: hsl(228, 45%, 44%); 
