@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+section{
+    background-color: hsl(30, 38%, 92%);
+    height:100vh;
+}
+.card-container{
+    margin: 0 auto;
+    display:flex;
+    flex-direction: row;
+}
+.image-box{
+    background-image: url('Asset/image-product-desktop.jpg');
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
