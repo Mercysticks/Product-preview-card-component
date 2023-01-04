@@ -1,52 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@500&family=Roboto&display=swap');
 *{
     margin:0;
     padding:0;
-    font-family: monospace;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+    background-color: hsl(30, 38%, 92%);
     box-sizing: border-box;
+    height: 100vh;
 }
 
 section{
-    background-color: hsl(30, 38%, 92%);
     height: 100vh;
 }
 .card-container{
     display:flex;
     margin: 0 auto;
     width:650px;
-    border-radius: 20px;
     box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
     height: 60%;
+    margin: 7rem auto 2rem;
+    border-radius: 20px 20px 20px 20px;
 }
 .image-box{
     background: url('/Asset/image-product-desktop.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    width:325px;
-    border-radius: 0px 0px 0px 20px;
+    width:350px;
+    border-radius: 20px 0px 0px 20px;
 }
 .text-box{
-    width:325px;
+    width:300px;
     background-color: hsl(0, 0%, 100%);
     display:flex;
     flex-direction: column;
     padding: 30px;
-    border-radius: 0px 0px 20px 0px;
+    border-radius: 0px 20px 20px 0px;
 }
 .header{
     color:hsl(228, 12%, 48%);
     font-size: 18px;
     letter-spacing: 4px;
-}
+    }
 .sub-head{
     width:200px;
+    margin-top: 18px;
 }
 .sub-head h1{
     font-weight: 700;
     font-size: 30px;
     color:hsl(212, 21%, 14%);
+    line-height: 25px;
 }
 .desc{
     width:240px;
+    margin-top: 35px;
+    line-height: 20px;
 }
 .desc p{
     color:hsl(228, 12%, 48%);
@@ -56,6 +66,7 @@ section{
 .amount{
     display: flex;
     gap:10px;
+    margin-top: 35px;
 }
 .amount-1{
     font-size: 35px;
@@ -74,6 +85,7 @@ section{
     border: none;
     height: 45px;
     border-radius: 8px;
+    margin-top: 40px;
 }
 .btn:hover{
     transform:translateY(-1px);
@@ -89,8 +101,14 @@ section{
 .attribution { 
     font-size: 11px; 
     text-align: center; 
-    margin-top: 200px;
 }
 .attribution a { 
         color: hsl(228, 45%, 44%); 
+}
+@media screen and (max-width:700px){
+    .card-container{
+        flex-direction: column;
     }
+}
+
+
